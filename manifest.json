@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "IMDb Spoiler Filter",
+    "version": "1.0",
+    "description": "Hides potential spoilers from IMDb pages such has how many episodes a character are in.",
+    "icons": {
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.imdb.com/*"
+            ],
+            "js": [
+                "spoiler-filter.js"
+            ]
+        }
+    ]
+}
