@@ -9,7 +9,6 @@
         {
             "matches": [
                 "*://*.imdb.com/*"
-                // "http*://www.imdb.*"
             ],
             "js": [
                 "spoiler-filter.js"
